@@ -1,0 +1,136 @@
+INFO  - 2013-11-22 23:01:07 --> Base path set to: C:/xampp/htdocs/BackendPro0.6.1/
+INFO  - 2013-11-22 23:01:07 --> Base dir set to: /BackendPro0.6.1/
+INFO  - 2013-11-22 23:01:07 --> System path set to: C:/xampp/htdocs/BackendPro0.6.1/system/
+INFO  - 2013-11-22 23:01:07 --> Application path set to: C:/xampp/htdocs/BackendPro0.6.1/system/application/
+INFO  - 2013-11-22 23:01:07 --> Modules path set to: C:/xampp/htdocs/BackendPro0.6.1/modules/
+INFO  - 2013-11-22 23:01:07 --> Logs path set to: C:/xampp/htdocs/BackendPro0.6.1/system/logs/
+INFO  - 2013-11-22 23:01:07 --> Cache path set to: C:/xampp/htdocs/BackendPro0.6.1/system/cache/
+INFO  - 2013-11-22 23:01:07 --> New feature 'FileSystem Check' created
+INFO  - 2013-11-22 23:01:07 --> New feature 'Setup FileSystem' created
+INFO  - 2013-11-22 23:01:07 --> New feature 'Setup Database' created
+INFO  - 2013-11-22 23:01:07 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2013-11-22 23:01:07 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2013-11-22 23:01:07 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:01:07 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:01:07 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:01:07 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:01:07 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:01:07 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:01:07 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:01:07 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:01:07 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:01:07 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2013-11-22 23:01:07 --> Log Folder writable Component install failed: C:/xampp/htdocs/BackendPro0.6.1/system/logs/ folder isn't writable
+INFO  - 2013-11-22 23:01:07 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2013-11-22 23:01:07 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2013-11-22 23:01:07 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2013-11-22 23:02:21 --> Base path set to: C:/xampp/htdocs/BackendPro0.6.1/
+INFO  - 2013-11-22 23:02:21 --> Base dir set to: /BackendPro0.6.1/
+INFO  - 2013-11-22 23:02:21 --> System path set to: C:/xampp/htdocs/BackendPro0.6.1/system/
+INFO  - 2013-11-22 23:02:21 --> Application path set to: C:/xampp/htdocs/BackendPro0.6.1/system/application/
+INFO  - 2013-11-22 23:02:21 --> Modules path set to: C:/xampp/htdocs/BackendPro0.6.1/modules/
+INFO  - 2013-11-22 23:02:21 --> Logs path set to: C:/xampp/htdocs/BackendPro0.6.1/system/logs/
+INFO  - 2013-11-22 23:02:21 --> Cache path set to: C:/xampp/htdocs/BackendPro0.6.1/system/cache/
+INFO  - 2013-11-22 23:02:21 --> New feature 'FileSystem Check' created
+INFO  - 2013-11-22 23:02:21 --> New feature 'Setup FileSystem' created
+INFO  - 2013-11-22 23:02:21 --> New feature 'Setup Database' created
+INFO  - 2013-11-22 23:02:21 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2013-11-22 23:02:21 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2013-11-22 23:02:21 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:02:21 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:02:21 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:02:21 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:02:21 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:02:21 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:02:21 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:02:21 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:02:21 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:02:21 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2013-11-22 23:02:21 --> Log Folder writable Component install failed: C:/xampp/htdocs/BackendPro0.6.1/system/logs/ folder isn't writable
+INFO  - 2013-11-22 23:02:21 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2013-11-22 23:02:21 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2013-11-22 23:02:21 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2013-11-22 23:04:21 --> Base path set to: C:/xampp/htdocs/mysocial/
+INFO  - 2013-11-22 23:04:21 --> Base dir set to: /mysocial/
+INFO  - 2013-11-22 23:04:21 --> System path set to: C:/xampp/htdocs/mysocial/system/
+INFO  - 2013-11-22 23:04:21 --> Application path set to: C:/xampp/htdocs/mysocial/system/application/
+INFO  - 2013-11-22 23:04:21 --> Modules path set to: C:/xampp/htdocs/mysocial/modules/
+INFO  - 2013-11-22 23:04:21 --> Logs path set to: C:/xampp/htdocs/mysocial/system/logs/
+INFO  - 2013-11-22 23:04:21 --> Cache path set to: C:/xampp/htdocs/mysocial/system/cache/
+INFO  - 2013-11-22 23:04:21 --> New feature 'FileSystem Check' created
+INFO  - 2013-11-22 23:04:21 --> New feature 'Setup FileSystem' created
+INFO  - 2013-11-22 23:04:21 --> New feature 'Setup Database' created
+INFO  - 2013-11-22 23:04:21 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2013-11-22 23:04:21 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:21 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:21 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:21 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:21 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:21 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:21 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:21 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:21 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:04:21 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:04:21 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2013-11-22 23:04:21 --> Log Folder writable Component install failed: C:/xampp/htdocs/mysocial/system/logs/ folder isn't writable
+INFO  - 2013-11-22 23:04:21 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2013-11-22 23:04:21 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2013-11-22 23:04:21 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2013-11-22 23:04:52 --> Base path set to: C:/xampp/htdocs/mysocial/
+INFO  - 2013-11-22 23:04:52 --> Base dir set to: /mysocial/
+INFO  - 2013-11-22 23:04:52 --> System path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:04:52 --> Application path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:04:52 --> Modules path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:04:52 --> Logs path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:04:52 --> Cache path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:04:52 --> New feature 'FileSystem Check' created
+INFO  - 2013-11-22 23:04:52 --> New feature 'Setup FileSystem' created
+INFO  - 2013-11-22 23:04:52 --> New feature 'Setup Database' created
+INFO  - 2013-11-22 23:04:52 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2013-11-22 23:04:52 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:52 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:52 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:52 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:52 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:04:52 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:52 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:52 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:04:52 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:04:52 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:04:52 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:04:52 --> Log Folder writable Component installed
+INFO  - 2013-11-22 23:04:53 --> Asset folders writable Component installed
+INFO  - 2013-11-22 23:04:53 --> Cache Folder writable Component installed
+ERROR - 2013-11-22 23:04:53 --> Config files writable Component install failed: C:/xampp/htdocs/mysocial//config/config.php file isn't writable
+INFO  - 2013-11-22 23:04:53 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2013-11-22 23:04:53 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2013-11-22 23:04:53 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2013-11-22 23:06:06 --> Base path set to: C:/xampp/htdocs/mysocial/
+INFO  - 2013-11-22 23:06:06 --> Base dir set to: /mysocial/
+INFO  - 2013-11-22 23:06:06 --> System path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:06:06 --> Application path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:06:06 --> Modules path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:06:06 --> Logs path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:06:06 --> Cache path set to: C:/xampp/htdocs/mysocial//
+INFO  - 2013-11-22 23:06:06 --> New feature 'FileSystem Check' created
+INFO  - 2013-11-22 23:06:06 --> New feature 'Setup FileSystem' created
+INFO  - 2013-11-22 23:06:06 --> New feature 'Setup Database' created
+INFO  - 2013-11-22 23:06:06 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2013-11-22 23:06:06 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2013-11-22 23:06:06 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:06:06 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:06:06 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:06:06 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2013-11-22 23:06:06 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:06:06 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:06:06 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2013-11-22 23:06:06 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:06:06 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:06:06 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+INFO  - 2013-11-22 23:06:06 --> Log Folder writable Component installed
+INFO  - 2013-11-22 23:06:06 --> Asset folders writable Component installed
+INFO  - 2013-11-22 23:06:06 --> Cache Folder writable Component installed
+ERROR - 2013-11-22 23:06:06 --> Config files writable Component install failed: C:/xampp/htdocs/mysocial//recaptcha/config/recaptcha.php file isn't writable
+INFO  - 2013-11-22 23:06:06 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2013-11-22 23:06:06 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2013-11-22 23:06:06 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
