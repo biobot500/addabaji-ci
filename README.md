@@ -1,4 +1,4 @@
-### Addabaji in CI ###
+### Addabaji in CI (PHP Open Source Social Network)###
 
 * an initiative to create an open source social network script using codeigniter.
 * version: 0.0.1
@@ -22,3 +22,5 @@ B: rshahriar.wordpress.com
 P: 8801627093135
 E: rhythm.shahriar.bd@gmail.com
 Skype: rhythm.shahriar
+=======
+
